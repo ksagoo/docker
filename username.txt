@@ -6,3 +6,6 @@ docker login registry.natwest.gitlab-dedicated.com
 Username: sagokdp
 Password:
 Error response from daemon: Get "https://registry.natwest.gitlab-dedicated.com/v2/": denied: access forbidden
+
+
+curl -H "Authorization: Bearer <your_personal_access_token>" https://registry.natwest.gitlab-dedicated.com/v2/
