@@ -9,3 +9,4 @@ Error response from daemon: Get "https://registry.natwest.gitlab-dedicated.com/v
 
 
 curl -H "Authorization: Bearer <your_personal_access_token>" https://registry.natwest.gitlab-dedicated.com/v2/
+{"errors":[{"code":"UNAUTHORIZED","message":"authentication required","detail":null}]}
