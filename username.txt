@@ -1,2 +1,8 @@
 curl --header "PRIVATE-TOKEN: <TOKEN>" https://gitlab.com/api/v4/user
 curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_NO_REVOCATION_CHECK (0x80092012) - The revocation function was unable to check revocation for the certificate.
+
+
+docker login registry.natwest.gitlab-dedicated.com
+Username: sagokdp
+Password:
+Error response from daemon: Get "https://registry.natwest.gitlab-dedicated.com/v2/": denied: access forbidden
